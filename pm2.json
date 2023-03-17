@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "mon-image-service",
+            "exec_mode": "fork",
+            "script": "build/app.js",
+            "args": "server --port=8081",
+            "watch": false,
+            "instances": 1
+        }
+    ]
+}
